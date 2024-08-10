@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #9eb49e;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    padding: 10px;
+    color: #304D30;
+    background-color: #B6C4B6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #aabbaa;
+    height: 100%;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    background-color: #aabbaa;
+    color: #304D30;
+}
+
+.tab:hover {
+    background-color: #9eb49e;
+}
+
+button.active {
+    background-color: #9eb49e;
+}
+
+.mainimg {
+    position: relative;
+    text-align: center;
+    background-color: #163020;
+}
+
+.food {
+    width: 100vw;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d5ddd5;
+    font-size: 1.7rem;
+}
+
+.menu {
+    background-color: #e0eae0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.menu div > h2 {
+    color: #304D30;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.item {
+    font-weight: bold;
+    color: rgb(75, 110, 75);
+    font-size: 0.9rem;
+}
+
+.description {
+    font-weight: lighter;
+    color: rgb(107, 140, 107);
+    padding-bottom: 10px;
+    font-size: 0.7rem;
+}
+
+
+
+.abtDiv {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 15px;
+}
+
+.abt {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+.map {
+    width: 100%;
+}
+
+.hours {
+    text-align: center;
+}
+
+.hours h3 {
+    padding-bottom: 15px;
+}
+
+.hours p {
+    padding-bottom: 10px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    padding-bottom: 15px;
+}
+
+.contact p {
+    padding-bottom: 10px;
+}
